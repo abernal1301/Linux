@@ -1,0 +1,17 @@
+wildcar is a character that you use to find a specific word,file,folder, extention etc.
+
+* represent zero or more characters
+? represent a single character
+[] represent a range of character
+
+all files that start with a.
+ls a* 
+
+all the files that contain a.
+ls *a*
+
+all the files that contain a range of letters.
+ls [ac]*
+
+all the files that only has 3 characters.
+ls ???

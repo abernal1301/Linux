@@ -1,0 +1,18 @@
+chmod octal number file 
+
+777 all users, gruops and others can read,write and execute.
+755 only user can read, write and execute the reminders only read and execute.
+700 only user can read, write and execute, the rest can not do anything.
+666 all user can read and write.
+644 only user can read and write the rest only read.
+600 only user can read and write the rest can not do anything.
+
+u
+g
+o 
+
+read   4
+write  2
+excute 1
+
+174

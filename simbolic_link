@@ -1,0 +1,5 @@
+softlink or simbolic link is an actual link or sortcut to the original file and hard link is a mirror copy of the original file
+inode= number of a file on the hard link 
+
+ln -s myfile softlink 
+ln myfile hardlink

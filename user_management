@@ -1,0 +1,29 @@
+Create users
+useradd -c "coment" -g [group] user
+ 
+remove all about user including home 
+userdel -r user
+
+you can find groups at /etc/group 
+
+add a group
+groupadd group 
+
+modify group 
+groupmod newname oldname
+
+remove group
+groupdel groupname
+
+details of the user password
+chage -l username 
+
+set password expire 
+chage -E "yyyy-mm-dd" username 
+
+inavtive user 
+chage -I username 
+
+send a message to expire password 
+chage -W 3 username 
+
