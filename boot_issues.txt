@@ -1,0 +1,9 @@
+in the initial menu select "e" to get access in edit mode, then we need to find the argument linux16 and the end of the line we will write
+systemd.unit=rescue.target 
+and to do rollback
+
+
+
+para ver logs de booteo
+journalctl --list-boots
+journalctl --since "date" --until "date"
