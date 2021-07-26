@@ -1,0 +1,11 @@
+reboot 
+
+press "c" to enter in promtp mode 
+
+ls to list the partitions you have avilable.
+cat (hd0.msdos1)/grub2/grub.cfg to validate the path and partition shuld be linux16.
+
+linux16 /vmlinuz-3.10.0-327.el7 root=/dev/sda2
+initrd16 /initramfs-3.10.0-327.el7 
+boot 
+
