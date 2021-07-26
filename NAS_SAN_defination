@@ -1,0 +1,53 @@
+NAS(Network attached storage)
+NAS system is a storage device connected to a network 
+that allows storage and retrieval of data from a server centralized that is connect to all system and redict all the requests
+
+Storage  Storage  Storage
+  \         |         /
+   \        |        /
+    \       |       /
+         NAS BOX
+            |
+       Network switch
+      /     |      \
+client   client  client
+ 
+   
+SAN(Storage area Network)
+is a network of storage devices that can be accessed by multiple servers or computers and that provides a repository of shared storage space.
+Each computer on the network can access the SAN storage as if they were local disks directly attached to the computer.
+
+Storage               Storage                  Storage 
+  \                      |                        /
+   \                     |                       /
+    \                    |                      / 
+Fiber channel          Fiber channel         Fiber channel
+     |                   |                      |
+     |                   |                      |
+Aplication server    Aplication server      Aplication server   
+     |                   |                      |
+     |                   |                      |
+     |                   |                      |
+     |                   |                      |
+
+Client                 Client                 Client
+
+
+SAN
+Network of multiple devices
+Block storage system
+Fibre Channel network
+Optimized for multiple users
+Faster performance
+Highly expandable
+Higher cost and complex setup
+
+
+NAS
+Single storage device or RAID
+File storage system
+TCP/IP Ethernet network
+Limited users
+Limited speed
+Limited expansion options
+Lower cost and easy setup
